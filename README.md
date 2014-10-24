@@ -1,7 +1,7 @@
 Gmail-Inbox-Menu-Slide-Out-
 ===========================
 
-Chrome extension that slides out the inbox.google.com menu on load
+Chrome extension that slides out the inbox.google.com menu on load **and keeps it open**. 
 
 Not in the web store as of now.
 
