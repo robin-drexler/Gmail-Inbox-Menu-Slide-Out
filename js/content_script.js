@@ -1,3 +1,3 @@
 $(function() {
-    alert('Yay, I\'m an extension :)');
+    $('[jsaction="global.toggle_basement_nav"]').click();
 });

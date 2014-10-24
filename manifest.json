@@ -1,5 +1,5 @@
 {
-    "name": "My awesome extension :)",
+    "name": "Gmail Inbox Menu Slide Out",
     "version": "0.1",
     "icons": { 
         "16": "/img/icons/icon_16.png",
@@ -7,14 +7,11 @@
         "128": "/img/icons/icon_128.png" 
     },
 
-    "description": "Yay, I'm so useless.",
-    "permissions": [
-        "geolocation"
-    ],
+    "description": "Slides out the inbox.google.com menu on load.",
 
     "content_scripts": [
         {
-            "matches": ["<all_urls>"],
+            "matches": ["https://inbox.google.com/*"],
             "js": [
                     "/js/external/jquery.js", 
                     "/js/content_script.js"
