@@ -7,7 +7,7 @@
         "128": "/img/icons/icon_128.png" 
     },
 
-    "description": "Slides out the inbox.google.com menu on load.",
+    "description": "Slides out the inbox.google.com menu on load and keeps it open.",
 
     "content_scripts": [
         {

@@ -1,3 +1,6 @@
 $(function() {
-    $('[jsaction="global.toggle_basement_nav"]').click();
+	console.log(    $('[jsaction="global.empty_space_click"]'))
+    $('[jsaction="global.empty_space_click"]').css({
+    	transform: 'translateX(0)'
+    });
 });
